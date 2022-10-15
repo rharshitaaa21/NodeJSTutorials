@@ -1,0 +1,27 @@
+{
+  "name": "nodejstutorials",
+  "version": "1.0.0",
+  "description": "node js tutorials ",
+  "main": "CoreModule.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rharshitaaa21/NodeJSTutorials.git"
+  },
+  "keywords": [
+    "backend",
+    "training"
+  ],
+  "author": "harshita raghav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rharshitaaa21/NodeJSTutorials/issues"
+  },
+  "homepage": "https://github.com/rharshitaaa21/NodeJSTutorials#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}
