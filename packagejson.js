@@ -1,5 +1,4 @@
 /* 
-
 used to store package information and rest other details 
 keeps code related details of our project 
 creation steps :
@@ -15,15 +14,6 @@ creation steps :
 
 
 package.lock - keeps the details of every package it has along with its minor details 
-
-
-
-
-
-
-
-
-
 
 
 

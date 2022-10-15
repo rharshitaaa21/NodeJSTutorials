@@ -16,3 +16,18 @@
 const fs = require('fs');
 
 console.log( __dirname, "----", __filename); // diname = directory name only , filename == entrire directory_file 
+
+var colors = require('colors')
+console.log( "hii dee".red);
+console.log("toxic parenting".bgWhite);
+//node js is single threaded i.e. it runs a single command at a time 
+
+
+// import chalk from 'chalk';
+// console.log(chalk.blue('You\'re Strong'));
+import chalk from 'chalk';
+
+const log = console.log;
+
+// Combine styled and normal strings
+log(chalk.blue('Hello') + ' World' + chalk.red('!'));
