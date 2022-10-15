@@ -1,1 +1,0 @@
-The file is created as an o/p of commandline inputs
