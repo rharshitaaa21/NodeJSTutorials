@@ -4,7 +4,6 @@ const data = [
 {name:'Pranav Yadav', email:'pranavyadav@gmail.com'},
 {name:'Mansi Yadav', email:'mansiyadav@gmail.com'}
 
-
 ]
 module.exports = data ;
 // so we saw API handling over postman , thats a bit easier - 

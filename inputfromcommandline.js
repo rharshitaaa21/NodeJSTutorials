@@ -8,11 +8,10 @@ console.log(process.argv);
   add items in command lines after and you'll be able to print everything one by one 
   priniting one by one would be ---->
     console.log(process.argv[1]);
-      console.log(process.argv[1]);
-        console.log(process.argv[1]);
-          console.log(process.argv[1]);
+      console.log(process.argv[2]);
+        console.log(process.argv[3]);
+          console.log(process.argv[4]);
  */
-
   const fs = require('fs');
   const input = process.argv;
   if( input[2] == 'add'){
@@ -26,3 +25,4 @@ console.log(process.argv);
   {
     console.log( "Invalid Input ");
   }
+

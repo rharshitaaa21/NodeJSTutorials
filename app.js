@@ -17,7 +17,5 @@ else{
 }
     }
 }
-
 // after this use  const objectname = require(./filename)
-
 // check intro.js for reference 

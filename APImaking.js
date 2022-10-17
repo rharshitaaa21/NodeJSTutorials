@@ -5,6 +5,4 @@ http.createServer((req, resp)=>{
     resp.write(JSON.stringify(data));
     resp.end();
 }
-
-
 ).listen(5500);
