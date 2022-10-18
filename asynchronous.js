@@ -39,4 +39,5 @@ waiting.then((data)=>
     b = data ;
     console.log( a + b );
 })
-// promise if used to delay the compilation by few seconds under a certain condition
+// promise if used to delay the compilation by few seconds under a certain conditions 
+
