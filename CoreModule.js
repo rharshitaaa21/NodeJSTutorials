@@ -24,10 +24,10 @@ console.log("toxic parenting".bgWhite);
 
 
 // import chalk from 'chalk';
-// console.log(chalk.blue('You\'re Strong'));
-import chalk from 'chalk';
+// // console.log(chalk.blue('You\'re Strong'));
+// import chalk from 'chalk';
 
-const log = console.log;
+// const log = console.log;
 
-// Combine styled and normal strings
-log(chalk.blue('Hello') + ' World' + chalk.red('!'));
+// // Combine styled and normal strings
+// log(chalk.blue('Hello') + ' World' + chalk.red('!'));
