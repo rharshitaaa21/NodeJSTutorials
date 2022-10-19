@@ -4,7 +4,8 @@ const path = require('path');
 const app = express();
 const publicPath=path.join(__dirname,'public')
 
-//app.use(express.static(publicPath));
+app.set('view engine', 'ejs');
+
 app.get('', (req, res)=>
 {
     res.sendFile(`${publicPath}/index.html`);
@@ -17,6 +18,19 @@ app.get('/about', (req, res)=>
 app.get('/help', (req, res)=>
 {
    res.sendFile(`${publicPath}/help.html`)
+});
+
+app.get('/login', (req, res)=>
+{
+  res.render('login');
+});
+app.get('/profile',(_,resp)=>{
+    const user={
+        name:'harshita',
+        email:'harshita@gmail.com',
+        city:'gzb'
+    }
+   resp.render('profile',{user})
 });
 
 app.get('*', (req, res)=>
