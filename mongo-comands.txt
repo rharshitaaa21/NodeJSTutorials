@@ -1,0 +1,12 @@
+nosql database
+data stored in a collection
+no rows and columns
+data in form of objects 
+
+commands-
+1. create db -> " use db_name"
+
+2. create collection -> "db.createCollection('coll-name')"
+3. deleting collection-> "db.col_name.drop()"
+4. deleting database-> "db.dropdatabase()"
+5. switch database-> "use database_name"
