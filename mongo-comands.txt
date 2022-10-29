@@ -10,3 +10,12 @@ commands-
 3. deleting collection-> "db.col_name.drop()"
 4. deleting database-> "db.dropdatabase()"
 5. switch database-> "use database_name"
+
+CRUD OPERATIONS----------------------------------------
+1. Insertion-
+db.coll-name.insertone/insertmany({name:, class:, etc}) // strings in double quotes
+
+to show data on command line - db.col-name.find();
+
+2. Updation 
+db.col-name.updateOne/.updatemany({name:"", {$set: {brand:"toyota"}})
